@@ -8,6 +8,5 @@ int bsearchCompare(const void *key, const void *value)
 
 int *binary_search(int value, const int *arr, size_t length)
 {
-    int *pt = bsearch(&value, arr, length, sizeof(int), bsearchCompare);
-    return pt;
+    return bsearch(&value, arr, length, sizeof(int), bsearchCompare);
 }
