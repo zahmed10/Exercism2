@@ -1,5 +1,8 @@
 #include "binary_search.h"
 
+// bsearch reference
+// https://beej.us/guide/bgc/html/#man-bsearch
+
 int bsearchCompare(const void *key, const void *value)
 {
     const int *k = key, *v = value;
